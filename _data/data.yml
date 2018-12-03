@@ -1,0 +1,147 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Pedro Sá
+    tagline: Full Stack Developer & Game Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: pedro@pedro-sa.com
+    phone: 91 249 67 25
+    website: pedro-sa.com
+    upwork: upwork.com/o/profiles/users/_~01ed6cc3217ef72bbd/
+
+    languages:
+      - idiom: Português
+        level: Nativo
+
+      - idiom: Inglês
+        level: Proficiente
+
+    interests:
+      - item: Fotografia
+        link:
+
+      - item: Caminhadas, Ciclismo, Aventura
+        link:
+
+career-profile:
+    title: Perfil
+    summary: |
+      As minhas capacidades e interesses passam pelo desenvolvimento de sistemas na sua vertente geral.
+      Desde sistemas em tempo real como jogos, até manipulação de dados e informação para comunicação entre sistemas,
+      passando pela construção de ferramentas para outros programadores e até utilizadores finais.
+
+      Adoro atacar novos problemas no âmbito da programação, 
+      o que me torna ágil e produtivo, mesmo face a tecnologias com as quais ainda não tive contacto.
+
+education:
+    - degree: Autodidata
+      #university: University of London
+      #time: 2011 - 2012
+      details: |
+        Gosto sempre de estar aprender sobre o mundo da programação.
+        Novas linguagens, frameworks, formas de pensar, etc. todas elas tem sido
+        a maior força motriz para o conhecimento que tenho vindo a adquirir desde
+        que aprendi a programar em criança.
+
+        Graças a essa vontade, tenho uma boa agilidade em adaptar-me a novas
+        formas de trabalhar e programar.
+
+    - degree: Estudos no Mestrado Integrado de Engenharia Informática
+      university: Faculdade de Engenharia da Universidade do Porto
+      time: 2007 - 2011
+      details: |
+        Durante alguns anos adquiri alguma experiência formal em Ciências da Computação,
+        que me vieram a ajudar a abordar programação de uma forma mais sistemática.
+    
+    - degree: Licenciatura de Design de Jogos Digitais
+      university: Instituto Politécnico de Bragança
+      time: 2011 - 2013 + 2016 - presente
+      details: |
+        Sempre focado na parte tecnológica de jogos, esta licenciatura abriu-me as portas
+        ao entendimento e comunicação de outras áreas de desenvolvimento. Mais propriamente
+        o contacto com design (tanto visual como de jogos) e a criação de ferramentas feitas
+        para públicos alvo especificos.
+
+experience:
+    - role: Freelance
+      time: 2017 - presente
+      #company: Google, London
+      details: |
+        Tenho vindo a dedicar-me ao freelance através da plataforma upwork. 
+        Tem sido uma experiência bastante positiva, pois adoro a flexibilidade e os novos desafios que me são apresentados.
+        A satisfação dos meus clientes é um ponto de grande orgulho meu, tendo sido recentemente recompensado
+        pela própria plataforma upwork com o título de Top Rated Freelancer.
+
+    - role: Lead Developer
+      time: 2013 - 2016
+      company: Adamastor Studio
+      details: |
+        Um pequeno estúdio de jogos fundado por mim e quatro parceiros.
+        Tomei o cargo de Lead Game Programmer, no qual geri e contribuí para todo o código produzido.
+        Adicionalmente, ajudei a Lead Game Designer a traduzir as suas ideias em sistemas que mais tarde seriam implementados em código.
+        As nossas ferramentas de desenvolvimento eram todas baseadas em Unity3D e C#, com um foco no PC e Mobile como plataformas.
+
+projects:
+    title: Projectos (upwork)
+    intro: >
+      Projetos desenvolvidos como freelancer, na plataforma Upwork.com
+
+    assignments:
+      - title: Engineering Calculations (Março - presente)
+        link: "#hook"
+        tagline: "Uma série de calculadoras implementadas em Angular (frontend), Java Spring (backend) e com hooks para MongoDB."
+
+      - title: Empires in Space (Setembro - presente)
+        tagline: "Um jogo multiplayer de estratégia desenvolvido em C# (backend) e JS+JQuery (frontend)."
+
+      - title: Encriptação em C++ (Agosto - presente)
+        link: "#"
+        tagline: "Uma série de pequenas aplicações que exploram vários conceitos em encriptação com C++"
+
+      - title: Car Simulator (Agosto - Setembro)
+        link: "#"
+        tagline: "Um simulador de condução para uso numa investigação académica sobre perceção da velocidad. Desenvolvido em Unity3D."
+
+      - title: Arduino (Outubro)
+        link: "#"
+        tagline: "Um trabalho de execução e verificação de dados para um programa escrito em C para Arduino."
+
+      - title: Manutenção de um launcher em VB.net
+        link: "#"
+        tagline: "Manutenção de uma pequena aplicação proprietária para configuração de uma outra aplicação."
+
+skills:
+    title: Linguagens de Programação  
+
+    toolset:
+      - name: Javascript & Typescript
+        level: 95%
+
+      - name: Angular
+        level: 90%
+
+      - name: HTML5 & CSS3
+        level: 85%
+
+      - name: C & C++
+        level: 95%
+
+      - name: C#
+        level: 95%
+
+      - name: Python & Django
+        level: 98%
+
+      - name: Sketch & Gimp & Inkscape
+        level: 80%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
